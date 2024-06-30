@@ -43,6 +43,11 @@ func main() {
 
 }
 ```
+## Experience
+- **System Administration**
+- **Network Management**
+- **Troubleshooting and Support**
+
 ## Education
 **University:** Kuban State University,  Computer Science with Software Engineering
 
