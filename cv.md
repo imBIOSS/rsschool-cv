@@ -52,4 +52,4 @@ func main() {
 **University:** Kuban State University,  Computer Science with Software Engineering
 
 ## Languages
-- **STUDYING**
+- **Studying**
