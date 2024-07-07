@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <!--============================ META TAGS START ============================-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creating Responsive Web Sites " />
+    <meta name="keywords" content="HTML, CSS, Responsive Resume Templates" />
+    <meta name="author" content="Aleklei Kostarev" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <title>Aleklei Kostarev System Administrator</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <h1 class="header__title">Aleklei Kostarev</h1>
+                <nav>
+                    <ul class="links">
+                        <li><a href="#about_section">Summary</a></li>
+                        <li><a href="#skills_section">Skills</a></li>
+                        <li><a href="#edu_section">Education</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Languages">Languages</a></li>
+                    </ul>
+                </nav>
+                <nav class="sosial-links">
+                    <a href="https://github.com/elvinyeka"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:_BIOSS_@mail.ru"><i class="fa-solid fa-envelope"></i></a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <main class="page-content">
+
+        <div class="container">
+            <div class="cover">
+                <section class="profile">
+                    <div class="profile-bg">
+                        <div class="profile-img">
+                            <img src="img/profile.jpeg" alt="profile image">
+                        </div>
+                        <div class="profile-name">
+                            <h2>Aleklei Kostarev</h2>
+                            <h4>System Administrator</h4>
+                        </div>
+                    </div>
+                </section>
+                <section id="about_section" class="about section">
+                    <div class="about__summary">
+                        <h2 class="title">Summary</h2>
+                        <p>
+                            I am a dedicated System Administrator with a passion for technology and problem-solving.
+                            With a solid background in managing and maintaining IT infrastructure,
+                            I ensure that systems run smoothly and efficiently.
+                            I have also pursued studies in programming, which has sparked a keen interest in further developing my coding skills.
+                            My goal is to expand my knowledge in programming to enhance my capabilities and drive my career growth in the tech industry.
+                        </p>
+                    </div>
+                    <div class="about__info">
+                        <ul class="about__info-items">
+                            <li class="about__info-item--right">Age</li>
+                            <li class="about__info-item">34</li>
+                            <li class="about__info-item--right">Email</li>
+                            <li class="about__info-item">_BIOSS_@mail.ru</li>
+                            <li class="about__info-item--right">Phone</li>
+                            <li class="about__info-item">+7 (911) 968-42-109</li>
+                            <li class="about__info-item--right">Address</li>
+                            <li class="about__info-item">St. Petersburg, Russia</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="skills_section" class="skills section">
+                    <div class="skills__header">
+                        <h2 class="title">Professional Skills</h2>
+
+                    </div>
+                    <ul class="skills__items">
+                        <li class="skills__item">
+                            <i class="fab fa-html5"></i>
+                            <a><span>HTML</span> (Not much practice)</a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-css3-alt"></i>
+                            <a><span>CSS</span> (Not much practice)</a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-git-alt"></i>
+                            <a>Version control:<span>Git</span></a>
+                            <i class="fab fa-github"></i>
+                            <a><span>GitHub</span></a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-python"></i>
+                            <a><span>Python</span>( basic knowledge)</a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fab fa-windows"></i>
+                            <a><span>Windows</span>,</a>
+                            <i class="fab fa-ubuntu"></i>
+                            <a><span>Linux</span> (Ubuntu)</a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fas fa-laptop-code"></i>
+                            <a>Editors: </a><span>VS Code</span>
+                        </li>
+
+                        <li class="skills__item">
+                            <i class="fas fa-tools"></i>
+                            <a><span>Configure hardware</span></a>
+                        </li>
+                        <li class="skills__item">
+                            <i class="fas fa-users-cog"></i>
+                            <a><span>User Administration</span></a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="code_section" class="code section">
+                    <div class="code__inner">
+                        <h2 class="title">Code example</h2>
+                        <pre>
+                            <code>
+                                package main
+                                import (
+                                    "bufio"
+                                    "fmt"
+                                    "os"
+                                    //"strings"
+                                    "unicode"
+                                )
+
+                                func main() {
+                                    text, _ := bufio.NewReader(os.Stdin).ReadString('\n')
+                                    textRunes := []rune(text)
+                                    if unicode.IsUpper(textRunes[0]) && string(textRunes[len(textRunes)-1]) == "." {
+                                        fmt.Print("Right")
+                                    } else {
+                                        fmt.Print("Wrong")
+                                    }
+                                }
+                            </code>
+                          </pre>
+                    </div>
+                </section>
+                <section id="edu_section" class="edu section">
+                    <div class="edu__inner">
+                        <h2 class="title">Education</h2>
+                    </div>
+                    <div class="edu__timeline">
+                        <div class="edu__timeline-card card-success">
+                            <div class="card-body">
+                                <div class="edu-head">Kuban State Technological University
+                                    <span class="text-small">Russia,Krasnodar city</span>
+                                </div>
+                                <div class="edu-time">2004 - 2008</div>
+                                <div>
+                                    Computer Science with Software Engineering.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Experince" class="edu section">
+                    <div class="edu__inner">
+                        <h2 class="title">Experience</h2>
+                    </div>
+                    <div class="edu__timeline">
+                        <div class="edu__timeline-card card-success">
+                            <div class="card-body">
+                                <div class="edu-head">System Administrator</div>
+                                <div class="edu-time">2009 - Present</div>
+                                <div>
+                                    Maintenance of networks and servers, assistance to users.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Languages" class="edu section">
+                    <div class="edu__inner">
+                        <h2 class="title">Languages</h2>
+                    </div>
+                    <div class="edu__timeline">
+                        <div class="edu__timeline-card card-success">
+                            <div class="card-body">
+                                <div class="edu-head">Russian<span class="text-small">[Native]</span>
+                                </div>
+                                <div class="edu-head">English<span class="text-small">[A1]</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__links">
+                    <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="img/rs_school_js.svg" alt="rs_school_js"></a>
+
+                    <a href="https://github.com/ImBIOSS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="author">&copy; 2004 By Alexsei Kostarev</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
