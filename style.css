@@ -127,8 +127,6 @@ body {
 	-webkit-text-fill-color: transparent;
 }
 
-/* =====  ABOUT ===== */
-
 .about {
     margin-top: 50px;
     padding: 0 40px;
@@ -169,8 +167,6 @@ body {
     padding-bottom: 15px;
     border-bottom: 1px solid #c3c9d1;
 }
-/* == Skills Section ===  */
-
 .skills__item {
     padding: 10px;
     margin-bottom: 5px;
@@ -191,8 +187,6 @@ body {
     margin-left: 5px;
 }
 
-/* == Code Section ===  */
-
 pre {
     background-color: #c0cee2;
 }
@@ -205,8 +199,6 @@ pre {
     color: green;
     font-weight: 700;
 }
-
-/* === EDU SECTION === */
 
 .edu__timeline {
     border-left: 2px solid #e6e9ed;
@@ -285,8 +277,6 @@ pre {
     font-weight: 600;
     color: #6c757d;
 }
-
-/* ===  FOOTER ====  */
 
 .footer__links {
     margin: 50px 0 20px;
