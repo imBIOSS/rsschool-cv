@@ -42,13 +42,6 @@ body {
     margin: 30px auto 0;
 }
 
-.work-link {
-    color: #3867d6;
-}
-.work-link:hover {
-    color: #0f54f7;
-    text-decoration: underline;
-}
 .mb-1 {
     margin-bottom: 5px;
 }
@@ -191,14 +184,6 @@ pre {
     background-color: #c0cee2;
 }
 
-.func {
-    color: #8854d0;
-    font-weight: 700;
-}
-.if {
-    color: green;
-    font-weight: 700;
-}
 
 .edu__timeline {
     border-left: 2px solid #e6e9ed;
@@ -229,13 +214,13 @@ pre {
     left: -41px;
     border: 2px solid;
     z-index: 2;
-    border-color: #37bc9b;
+    border-color: #0854f8;
 }
 
 .card-success {
     position: relative;
     margin-left: 31px;
-    border-left: 2px solid #37bc9b;
+    border-left: 2px solid #0854f8;
     margin-bottom: 2rem;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
@@ -248,7 +233,7 @@ pre {
     content: "";
     display: inline-block;
     position: absolute;
-    background-color: #37bc9b;
+    background-color: #0854f8;
     width: 29px;
     height: 2px;
     top: 25px;
